@@ -16,8 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYp-xU-k8d">
-                                <rect key="frame" x="47" y="378" width="281" height="56"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HYp-xU-k8d">
+                                <rect key="frame" x="82.000000000000014" y="378" width="211.33333333333337" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="1E8-ms-RcB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="27"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,8 +29,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
-                            <constraint firstItem="HYp-xU-k8d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O07-Qo-rV4"/>
-                            <constraint firstItem="HYp-xU-k8d" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Onc-Jc-Cgb"/>
+                            <constraint firstItem="HYp-xU-k8d" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="Onc-Jc-Cgb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HYp-xU-k8d" secondAttribute="trailing" constant="81.666666666666629" id="dtQ-SY-hM5"/>
+                            <constraint firstItem="HYp-xU-k8d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="seW-O5-ncc"/>
                         </constraints>
                     </view>
                 </viewController>
